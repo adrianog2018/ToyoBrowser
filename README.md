@@ -18,8 +18,6 @@ Technologies
 
 -Razor Templates
 
--SQL
-
--Entity Framework
+-SQL with Entity Framework
 
 -VueJS
