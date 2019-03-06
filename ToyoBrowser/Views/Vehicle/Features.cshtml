@@ -1,0 +1,28 @@
+﻿@model List<TrimsLevel_Features>
+@{
+    ViewData["Title"] = "Trims Levels";
+}
+
+<h2 class="p-2">Features</h2>
+
+<div class="d-flex flex-row flex-wrap">
+    @foreach (var v in Model)
+    {
+        <div class="card p-4" style="width: 18rem;">
+            @*<img class="card-img-top" src="@(Model.Picture)" alt="Card image cap">*@
+            <div class="card-body">
+                <h5 class="card-title">@v.TrimsLevel.Year (@v.TrimsLevel.ModelNumber)</h5>
+                <p class="card-text">@v.TrimsLevel.Model.Name @v.TrimsLevel.Description</p>
+                <hr />
+                <p class="card-text">@v.Features.Name </p>
+                <p class="card-text">@v.Features.Description </p>
+                <p class="card-text">Standard: @v.Standard </p>
+
+
+
+            </div>
+        </div>
+
+
+    }
+</div>

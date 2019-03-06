@@ -1,0 +1,17 @@
+﻿@model List<Vehicle>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var v in Model)
+{
+    <div class="d-flex flex-row">
+        <div class="w-50 p-3 d-flex flex-column">
+            <div>@v.VehicleClass.Name</div>
+
+            <img src="@v.ImageUrl" class="img-responsive"/>
+        </div>
+    </div>
+    
+    
+}
