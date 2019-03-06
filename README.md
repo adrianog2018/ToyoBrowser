@@ -1,4 +1,4 @@
-ct Outline
+Outline
 ToyoBrowser is an application that makes easy to review and compare every model, trim and features of each Toyota vehicle.
 
 Overview
