@@ -20,4 +20,7 @@ Technologies
 
 -SQL with Entity Framework
 
+-CSS and Bootstrap 4
+
 -VueJS
+
